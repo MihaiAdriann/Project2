@@ -5,7 +5,7 @@ function Terms() {
     
   return (
     <div>
-      TERMS OF USE
+      {/* TERMS OF USE
       
       Last updated May 24, 2023
       
@@ -273,7 +273,7 @@ function Terms() {
       __________
       __________
       __________
-      These terms of use were created using Termly's Terms and Conditions Generator.
+  These terms of use were created using Termly's Terms and Conditions Generator. */}
     </div>
   );
     }
