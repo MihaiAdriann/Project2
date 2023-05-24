@@ -14,11 +14,9 @@ class App extends React.Component{
 render(){
   return(
     <div>
-      <Router>
-        <Routes>
-          <Route path='/' element={Home} />
+       <Routes>
+          <Route path='/' element={<Home />} />
         </Routes>
-      </Router>     
      
     </div>
 

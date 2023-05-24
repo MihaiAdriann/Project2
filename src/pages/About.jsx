@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       This is AboutUs. 
-      This site is a nea site for testing
+      This site is a new site for testing
     </div>
   )
 }
