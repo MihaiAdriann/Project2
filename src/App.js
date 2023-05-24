@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import {Router, Routes, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About';
 import Terms from './pages/Terms';
-
+import Login from './pages/Login';
 class App extends React.Component{
   constructor(){
     super();
@@ -13,12 +14,12 @@ class App extends React.Component{
 render(){
   return(
     <div>
-      Hello World!
-      <Home/>
-      <br/>
-      <About/>
-      <br/>
-      <Terms/>
+      <Router>
+        <Routes>
+          <Route path='/' element={Home} />
+        </Routes>
+      </Router>     
+     
     </div>
 
   )

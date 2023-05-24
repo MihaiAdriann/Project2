@@ -5,6 +5,7 @@ function Terms() {
     
   return (
     <div>
+        All Terms in commented 
       {/* TERMS OF USE
       
       Last updated May 24, 2023
