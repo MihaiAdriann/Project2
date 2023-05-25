@@ -1,7 +1,9 @@
-.link{
-    padding: 10px;
-    margin: 10px;
-  }
+header .logo {
+    width: 150px;
+    height: auto;
+}
 
-  
-    
+header .logout:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

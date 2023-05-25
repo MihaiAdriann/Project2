@@ -1,15 +1,10 @@
-import firebase from 'firebase/app';
-import 'firebase/auth';
-
-
 const firebaseConfig = {
-  apiKey: 'API_KEY',
-  authDomain: 'AUTH_DOMAIN',
-  projectId: 'PROJECT_ID',
-  //  alte informații
+  apiKey: "AIzaSyDJQLkQpWBxPYIFacg3tIHiqNzMAEk1MiA",
+  authDomain: "project2-d0d02.firebaseapp.com",
+  projectId: "project2-d0d02",
+  storageBucket: "project2-d0d02.appspot.com",
+  messagingSenderId: "374081197313",
+  appId: "1:374081197313:web:b46a461e9e042f26933700"
 };
 
-firebase.initializeApp(firebaseConfig);
-
-
-export default firebase;
+export default firebaseConfig;
