@@ -7,6 +7,7 @@ import About from './pages/About';
 import Terms from './pages/Terms';
 import Page404 from './pages/Page404';
 import Login from './pages/Login';
+import Category from './pages/Category';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route  path='/login' element={<Login />} />
           <Route  path='/terms' element={<Terms />} />
           <Route  path='/about' element={<About />} />
+          <Route path='/category/:categoryName' element={<Category/>}/>
           <Route path='*' element={<Page404/>} />
         </Routes>
 
